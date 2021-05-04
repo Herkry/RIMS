@@ -1,0 +1,29 @@
+.card-width{
+	width: 460px;
+}
+
+.bg-colour{
+	background-color: #fafafa;
+}
+
+.color-bluish{
+	color: #585db1;
+}
+
+.color-light-bluish{
+	color: #f3f1f9;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #585db1;
+  font-weight: bold;
+}
+
+.btn-primary.btn-color-bluish{
+	background-color: #585db1;
+	border-color: #585db1;
+}
+
+.bg-transparent{
+	background-color: transparent;
+}

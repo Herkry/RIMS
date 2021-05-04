@@ -1,0 +1,142 @@
+/** For Projects list **/
+.my-projects-row-div{
+    
+
+}
+
+.large-add-button{
+    height: 200px;
+}
+
+.other-div{
+    
+}
+
+.list-contents-small{
+    font-size: 0.8em;
+}
+
+.list-contents-smaller{
+    font-size: 0.5em;
+}
+
+#btnfile{
+    font-size: 0.6em;
+    height:25px;
+    width:55px;
+}
+
+.link-simple{
+    text-decoration: none;
+    border: none;
+    outline: 0;
+}
+
+
+/** sidebar 1 **/
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250 px;
+    max-width: 250 px;
+    min-height: 100vh;
+}
+
+.line-sep{
+    border-left: 1px solid #ececec;
+}
+
+/* Toggle switch Admin */
+.switchToggle input[type=checkbox]{height: 0; width: 0; visibility: hidden; position: absolute; }
+.switchToggle label {cursor: pointer; text-indent: -9999px; width: 93px; max-width: 93px; height: 30px; background: #d1d1d1; display: block; border-radius: 100px; position: relative; }
+.switchToggle label:after {content: ''; position: absolute; top: 2px; left: 2px; width: 26px; height: 26px; background: #585db1; border-radius: 90px; transition: 0.3s; }
+.switchToggle input:checked + label, .switchToggle input:checked + input + label  {background: #d1d1d1; }
+.switchToggle input + label:before, .switchToggle input + input + label:before {content: ' Switch'; position: absolute; top: 5px; left: 35px; width: 26px; height: 26px; border-radius: 90px; transition: 0.3s; text-indent: 0; color: #585db1; }
+.switchToggle input:checked + label:before, .switchToggle input:checked + input + label:before {content: 'Admin'; position: absolute; top: 5px; left: 10px; width: 26px; height: 26px; border-radius: 90px; transition: 0.3s; text-indent: 0; color: #585db1; }
+.switchToggle input:checked + label:after, .switchToggle input:checked + input + label:after {left: calc(100% - 2px); transform: translateX(-100%); }
+.switchToggle label:active:after {width: 60px; } 
+.toggle-switchArea { margin: 10px 0 10px 0; }
+
+.btn-primary.btn-color-bluish{
+    background-color: #585db1;
+    border-color: #585db1;
+}
+
+/* Big numbers- statistics of ongoing grants and proposals */
+.big-number{
+    font-size: 45px;
+}
+
+.filter-edit_svg{
+    filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(160deg) brightness(107%) contrast(96%);
+}
+
+.txt-big{
+    font-size: 30px;
+}
+
+.txt-logout{
+    font-size: 20px;
+}
+
+.margin-logout-txt{
+   margin-right: -32px; 
+}
+
+.margin-collapsible_projects{
+   margin-right: -41px; 
+}
+
+.margin-collapsible_projects2{
+   margin-right: -37px; 
+}
+
+.margin-collapsible_proposals{
+   margin-right: -32px; 
+}
+
+.margin-collapsible_proposals2{
+   margin-right: -37px; 
+}
+
+.bg-transparent{
+    background-color: transparent;
+}
+
+.bg-grey-white{
+    background-color: #fafafa;
+}
+
+.bg-dark-red{
+    background-color: #e3604a;
+}
+
+.bg-light-red{
+    background-color: #fff5f2;
+}
+
+.bg-dark-gold{
+    background-color: #cfa760;
+}
+
+.bg-light-gold{
+    background-color:  #fdf9f4;
+}
+
+.bg-dark-blue{
+    background-color: #585db1;
+}
+
+.bg-light-blue{
+    background-color: #f3f1f9;
+}
+.bg-dark-pantone{
+    background-color: #f7d783;
+}
+
+.bg-light-pantone{
+    background-color: #fefcf7;
+}
